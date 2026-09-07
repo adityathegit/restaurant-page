@@ -1,0 +1,18 @@
+.food-container {
+    display: flex;
+    gap: 32px;
+}
+.food-item {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: justify;
+    background-color: beige;
+    padding: 10px 20px;
+    box-shadow: 2px 2px #000000;
+}
+
+.food-item img {
+    width: 300px;
+}
