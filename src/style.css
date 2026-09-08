@@ -1,3 +1,32 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header nav {
+    display: flex;
+    background-color: beige;
+    padding: 1.5em 2em;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 3px solid #000000;
+}
+
+header nav button {
+    background-color: beige;
+    padding: 0.5em 1.5em;
+    box-shadow: 1px 1px #000000;
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+}
+
+header nav button:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
 .food-container {
     display: flex;
     gap: 32px;
@@ -16,3 +45,78 @@
 .food-item img {
     width: 300px;
 }
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.image-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding: 10px;
+    gap: 10px;
+    
+}
+.image-div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: justify;
+    color: rgb(67, 54, 54)
+}
+
+.story strong {
+    color: black;
+    display: block;
+    font-size: 5rem;
+    text-align: left;   
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0;
+    color: rgb(67, 54, 54)
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 10px;
+}
+.cards-para {
+    background-color: beige;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.author {
+    font-weight: bold;
+}
+
+footer {
+    background-color: beige;
+    padding: 1em 2em;
+    text-align: center;
+    border-top: 3px solid #000000;
+}
+
+
