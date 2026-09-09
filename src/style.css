@@ -12,24 +12,26 @@ header nav {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 header nav button {
     background-color: beige;
     padding: 0.5em 1.5em;
-    box-shadow: 1px 1px #000000;
+    border: 1px solid #000000;
     font-size: clamp(0.6rem, 1.5vw, 1rem);
 }
 
 header nav button:hover {
     cursor: pointer;
     background-color: beige;
+    text-decoration: underline;
 }
 
 .food-container {
     display: flex;
-    gap: 32px;
+    gap: 16px;
+    margin: 16px;
 }
 .food-item {
     max-width: 300px;
@@ -112,11 +114,54 @@ header nav button:hover {
     font-weight: bold;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #000000;
+    width: 350px;
+    padding: 10px 20px;
+    background-color: beige;
+    margin: 10px;
+}
+
+form label {
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #483b3b;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 1em;
+}
+
+textarea {
+    padding: 1em;
+}
+
+form div {
+    margin-top: 10px;
+    text-align: end;
+}
+
+form button {
+    padding: 0.8em 2em;
+    background-color: rgb(246, 246, 236);
+    border: 1px solid #000000;
+}
+
+form button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 footer {
     background-color: beige;
     padding: 1em 2em;
     text-align: center;
-    border-top: 3px solid #000000;
+    border-top: 1px solid #000000;
 }
 
 

@@ -46,7 +46,7 @@ const cardsConfig = [
               above and beyond for our anniversary.Our steaks were cooked to
               absolute perfection.The handcrafted cocktails were a wonderful
               surprise.We felt incredibly valued throughout the entire
-              evening.It was a truly flawless dining experience."`,
+              evening."`,
         author: "- David K., Google Reviewer"
     },
     {

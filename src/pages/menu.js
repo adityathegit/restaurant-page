@@ -25,6 +25,7 @@ export const menuPage = () => {
 
     const heading = document.createElement("h1");
     heading.textContent = "The Restaurent's Menu";
+    heading.style.margin = "10px";
 
     const foodContainer = document.createElement("div");
     foodContainer.classList.add("food-container");
